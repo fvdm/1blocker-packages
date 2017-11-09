@@ -24,4 +24,4 @@ Custom packages for the 1Blocker app
 
 Blocking domains and scripts from resource abusers like embedded crypto coin miners.
 
-[Download link](https://github.com/fvdm/1blocker-packages/raw/master/Resource%20abuse.1blockpgb)
+[Download link](https://github.com/fvdm/1blocker-packages/raw/master/Resource%20abuse.1blockpkg)
