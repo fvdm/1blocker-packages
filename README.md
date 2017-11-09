@@ -8,19 +8,22 @@ Custom packages for the 1Blocker app
 
 ### macOS
 
-1. Hold the **option** key and click a download link below to download the file to your Mac.
+1. Hold the **option** key and click a download link below to download
+the file to your Mac.
 2. Open the file to import the list into 1Blocker.
 
 ### iOS
 
 1. Download the file [to your Mac](#macos).
-2. Send it with AirDrop to your iOS device.
+2. When you have 1Blocker for Mac just import the file there and sync
+with iCloud to your iOS device. Or send it over with AirDrop.
 
 ## Packages
 
 ### Resource abuse
 
-Blocking domains and scripts from resource abusers like embedded crypto coin miners.
+Blocking domains and scripts from resource abusers like embedded
+crypto coin miners.
 
 [Download link](https://github.com/fvdm/1blocker-packages/raw/master/Resource%20abuse.1blockpkg)
 
