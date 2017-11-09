@@ -9,7 +9,6 @@ Custom packages for the 1Blocker app
 ### macOS
 
 1. Hold the **option** key and click a download link below to download the file to your Mac.
-2. Rename the file to end with `.1blockpkg`
 2. Open the file to import the list into 1Blocker.
 
 ### iOS
