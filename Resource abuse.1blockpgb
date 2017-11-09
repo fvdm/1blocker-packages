@@ -1,0 +1,476 @@
+[
+  {
+    "id": "EC1657C2-44A7-446C-8E2F-D2D6D2A9BAB1",
+    "name": "Resource abuse",
+    "rules": [
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?cnhv\\.co"
+          }
+        },
+        "name": "Block //(.+\\.)?cnhv\\.co",
+        "id": "CB1A38D6-9AEA-46F7-8F16-CD54B28E6815"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?coin-hive\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?coin-hive\\.com",
+        "id": "BB649B68-1AFC-429B-B5DA-C30F8673953C"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?coinhive\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?coinhive\\.com",
+        "id": "385D3F70-2481-4D1D-B807-BBB0946671B7"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?gus\\.host"
+          }
+        },
+        "name": "Block //(.+\\.)?gus\\.host",
+        "id": "2976386E-785C-4ED4-8A5E-29583D417887"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?jsecoin\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?jsecoin\\.com",
+        "id": "54142E63-D3CF-4917-8838-2F8976B49F9A"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?pr0gramm\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?pr0gramm\\.com",
+        "id": "92B42F34-233B-4E28-A366-05CB2C61EBB2"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?minemytraffic\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?minemytraffic\\.com",
+        "id": "56C8E3C0-429F-41AD-9CDF-6089D61B51D1"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?ppoi\\.org"
+          }
+        },
+        "name": "Block //(.+\\.)?ppoi\\.org",
+        "id": "BEA4B744-9888-4397-BB19-39DCDEF56049"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?projectpoi\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?projectpoi\\.com",
+        "id": "8FAAC78C-36F6-4FC4-9971-B82F740B6487"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?azvjudwr\\.info"
+          }
+        },
+        "name": "Block //(.+\\.)?azvjudwr\\.info",
+        "id": "D1053C89-7F00-48EE-B143-0E857947005C"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?jroqvbvw\\.info"
+          }
+        },
+        "name": "Block //(.+\\.)?jroqvbvw\\.info",
+        "id": "1CA9857B-5D91-4B35-AF35-094F33FA0380"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?jyhfqoh\\.info"
+          }
+        },
+        "name": "Block //(.+\\.)?jyhfqoh\\.info",
+        "id": "DCA66D61-09D1-46E7-A44A-14243DAF27FA"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?kdowqlpt\\.info"
+          }
+        },
+        "name": "Block //(.+\\.)?kdowqlpt\\.info",
+        "id": "B4A8D2F4-11FB-4A2F-A210-9D17CB5FD738"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?xbasfbno\\.info"
+          }
+        },
+        "name": "Block //(.+\\.)?xbasfbno\\.info",
+        "id": "5149E626-CB26-48B8-ACCD-E8FC5364F658"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?crypto-loot\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?crypto-loot\\.com",
+        "id": "760B73F4-CF0A-4A95-9641-588DF1DE294B"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?coinerra\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?coinerra\\.com",
+        "id": "E6543452-2420-462D-80F1-EB1BD288CB8A"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?coin-have\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?coin-have\\.com",
+        "id": "33A3C0E1-139E-43DC-ABCE-8732F1293365"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?minero\\.pw"
+          }
+        },
+        "name": "Block //(.+\\.)?minero\\.pw",
+        "id": "7D9A2C59-24E5-4C55-8574-551E82ED4423"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?minero(-.+)?\\.now\\.sh"
+          }
+        },
+        "name": "Block //(.+\\.)?minero(-.+)?\\.now\\.sh",
+        "id": "4E3AF5B7-49A6-4752-889A-87934AF7E700"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?inwemo\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?inwemo\\.com",
+        "id": "F3923BA5-E4AC-4873-8C85-9B1B57BC4795"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?edgemesh\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?edgemesh\\.com",
+        "id": "6F35E361-94D6-4AD4-8A85-0DBFF37FCED2"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?edgeno\\.de"
+          }
+        },
+        "name": "Block //(.+\\.)?edgeno\\.de",
+        "id": "31F006F8-4191-4005-B83B-2194648633E8"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "/edgemesh\\.js"
+          }
+        },
+        "name": "Block /edgemesh\\.js",
+        "id": "590863E8-A16C-4C30-BB6F-88F4C0E11D87"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?kisshentai\\.net/Content/js/c-hive\\.js"
+          }
+        },
+        "name": "Block //(.+\\.)?kisshentai\\.net/Content/js/c-hive\\.js",
+        "id": "C4442D5F-F7BE-4937-A65B-DC6B3FC5C83D"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?oload\\.info"
+          }
+        },
+        "name": "Block //(.+\\.)?oload\\.info",
+        "id": "C91F9CDB-9541-469B-BBB7-C3EF4A117509"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?2giga\\.link"
+          }
+        },
+        "name": "Block //(.+\\.)?2giga\\.link",
+        "id": "9B643C28-7C8B-46CF-9397-918869442EEA"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?webmine\\.cz"
+          }
+        },
+        "name": "Block //(.+\\.)?webmine\\.cz",
+        "id": "46C2C2E2-B801-4080-9AF8-785F7D92D244"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?listat\\.biz"
+          }
+        },
+        "name": "Block //(.+\\.)?listat\\.biz",
+        "id": "4C9B0C36-AB49-4C2F-8A76-FB13AB5D667F"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?lmodr\\.biz"
+          }
+        },
+        "name": "Block //(.+\\.)?lmodr\\.biz",
+        "id": "CF96B877-4DB6-4B57-A25A-D6CECF059B45"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?mataharirama\\.xyz"
+          }
+        },
+        "name": "Block //(.+\\.)?mataharirama\\.xyz",
+        "id": "DCDADA56-00D2-4C4B-9777-FF209FB78D0C"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?reasedoper\\.pw"
+          }
+        },
+        "name": "Block //(.+\\.)?reasedoper\\.pw",
+        "id": "48577FE8-C397-4736-8C76-E8C5DDF5E456"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?coinblind\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?coinblind\\.com",
+        "id": "0A92BB9F-3B50-493D-825F-ABF44DBDB2D7"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?coinnebula\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?coinnebula\\.com",
+        "id": "3B312C25-9287-4CBE-AC71-FF212FC8B743"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//(.+\\.)?safelinkconverter\\.com"
+          }
+        },
+        "name": "Block //(.+\\.)?safelinkconverter\\.com",
+        "id": "B28DA95F-8B07-441B-9F17-0B68A7AE15C0"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "/cryptonight\\.wasm"
+          }
+        },
+        "name": "Block /cryptonight\\.wasm",
+        "id": "A210AA72-A7C1-4B10-B75E-85DB93138784"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "/coin-?hive(\\.min)?\\.js"
+          }
+        },
+        "name": "Block /coin-?hive(\\.min)?\\.js",
+        "id": "437B7CA0-F6F6-4AFC-BF64-FD1EE1CA0892"
+      }
+    ]
+  }
+]
