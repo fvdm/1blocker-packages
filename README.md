@@ -31,7 +31,7 @@ with iCloud to your iOS device. Or send it over with AirDrop.
 ### Resource abuse
 
 Blocking domains and scripts from resource abusers like embedded
-crypto coin miners.
+crypto coin miners. (cryptojacking)
 
 [Download link](https://github.com/fvdm/1blocker-packages/raw/master/Resource%20abuse.1blockpkg)
 
