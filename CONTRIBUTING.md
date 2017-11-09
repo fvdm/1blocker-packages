@@ -14,14 +14,14 @@ rules easy to understand.
 Good:
 
 ```regex
-//([\w\d]+\.)*(bad|evil)-corp\.net
+//(.+\.)?(bad|evil)-corp\.net
 /nightmare(\.min)?\.js
 ```
 
 Bad:
 
 ```regex
-(//([\w\d]+\.)*(bad|evil)-corp\.net|/nightmare(\.min)?\.js)
+(//(.+\.)?(bad|evil)-corp\.net|/nightmare(\.min)?\.js)
 ```
 
 4. Export the custom package to file and run the contents through
