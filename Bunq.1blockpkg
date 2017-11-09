@@ -1,0 +1,98 @@
+[
+  {
+    "id": "FAFE892B-0149-42BF-A747-901BE070FD78",
+    "name": "Bunq",
+    "rules": [
+      {
+        "content": {
+          "action": {
+            "type": "ignore-previous-rules"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "together.bunq.com",
+              "login-together.bunq.com"
+            ]
+          }
+        },
+        "name": "Whitelist Together",
+        "id": "060E857E-6C8A-4584-A7C7-D8F8590AD5A6"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "make-https"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "bunq.com",
+              "api.bunq.com",
+              "sandbox.public.api.bunq.com",
+              "bunq.me",
+              "bunq.to",
+              "together.bunq.com",
+              "doc.bunq.com",
+              "doc.api.bunq.com",
+              "api.together-login.bunq.com",
+              "together-login.bunq.com"
+            ]
+          }
+        },
+        "name": "Force HTTPS",
+        "id": "71AB21A3-7EB4-45CB-A6FC-419569C04EFB"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "ignore-previous-rules"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "doc.bunq.com"
+            ]
+          }
+        },
+        "name": "Whitelist API documentation",
+        "id": "0EAFD1FA-0456-43BD-A946-167E7844B8FD"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//d31qbv1cthcecs\\.cloudfront\\.net/atrk\\.js",
+            "load-type": [
+              "third-party"
+            ]
+          }
+        },
+        "name": "Block Alexa tracking",
+        "id": "40895F98-C7D2-4E08-B3B0-B1EA38B047BD"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "block"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": "//www\\.google-analytics\\.com/",
+            "load-type": [
+              "third-party"
+            ]
+          }
+        },
+        "name": "Block Google Analytics tracking",
+        "id": "6A8D18B9-2D63-4639-BFD1-5B115CBA57AF"
+      }
+    ]
+  }
+]
