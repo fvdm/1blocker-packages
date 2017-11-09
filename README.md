@@ -13,9 +13,8 @@ Custom packages for the 1Blocker app
 
 ### iOS
 
-1. Tap a download link below.
-2. Tap the Share button in Safari.
-3. Choose 1Blocker
+1. Download the file [to your Mac](#macos).
+2. Send it with AirDrop to your iOS device.
 
 ## Packages
 
