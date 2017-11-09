@@ -20,6 +20,14 @@ with iCloud to your iOS device. Or send it over with AirDrop.
 
 ## Packages
 
+### Bunq
+
+* Force HTTPS on all main bunq domains.
+* Block Alexa and Google Analytics tracking
+* Option to fully whitelist bunq Together and the API documentation.
+
+[Download link](https://github.com/fvdm/1blocker-packages/raw/master/Bunq.1blockpkg)
+
 ### Resource abuse
 
 Blocking domains and scripts from resource abusers like embedded
